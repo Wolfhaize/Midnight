@@ -21,7 +21,7 @@ Midnight offers a captivating collection of themes designed to elevate your Watt
 ## How to Use
 
 1. Pin the extension.
-2. Switch between theme options: Gray, Blue, Green, Pink, Purple, Red, or Black.
+2. Switch between theme options: Gold, Blue, Green, Pink, Purple, Red, or Black.
 3. Refresh your Wattpad pages to apply changes.
 
 ## Support
