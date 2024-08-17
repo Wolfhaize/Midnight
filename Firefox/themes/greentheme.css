@@ -1,0 +1,1153 @@
+:root {
+        --green-50: #e6f7eb;  /* Very light green */
+        --green-100: #c0eccd; /* Light green */
+        --green-200: #8cda9f; /* Soft green */
+        --green-300: #58c872; /* Mid-light green */
+        --green-400: #2ab84d; /* Medium green */
+        --green-500: #00a838; /* Standard green */
+        --green-600: #00872c; /* Darker green */
+        --green-700: #006620; /* Deep green */
+        --green-800: #004516; /* Very dark green */
+        --green-900: #002d0f; /* Darkest green */
+    
+    
+        --orange: #f85e16;
+        --failure: #ff4c4c;
+        --success: #04ff04;
+}
+
+/* GENERAL */
+
+
+
+html, body, #footer-container  {
+    background-color: var(--green-900) !important;
+    color: var(--green-50) !important;
+}
+
+.close svg, .more-details svg, .tag-and-badge svg, .icon-parts svg {
+    stroke: var(--green-50);
+}
+
+/* HEADER */
+
+#header-container #header, .button-group.dropdown {
+    background-color: var(--green-900) !important;
+    color: var(--green-50) !important;
+}
+
+/* BROWSE DROPDOWN */
+
+#header-container #header #discover-dropdown .dropdown-menu, #header-container #header #discover-dropdown .dropdown-menu.new-curation .wattpad-picks {
+    background-color: var(--green-700) !important;
+    color: var(--green-50) !important;
+}
+
+.dropdown-menu.large li a, .profile-layout #profile-works .profile-works-content .discover-module-stories-large .content .work-state.draft {
+    color: var(--green-50) !important;
+}
+
+
+/* COMMUNITY DROPDOWN  */
+
+.dropdown-menu {
+    background-color: var(--green-700) !important;
+}
+
+
+
+/* CONTINUE READING  */
+
+.continue-reading-wrapper button {
+    background-color: var(--green-600) !important;
+    color: var(--green-50) !important;
+
+}
+
+.home-sections-wrapper .continue-reading-wrapper .continue-reading .story-details .header, .home-sections-wrapper .continue-reading-wrapper .continue-reading .story-details .story-title, .home-sections-wrapper .continue-reading-wrapper .continue-reading .read {
+    color: var(--green-50) !important;
+}
+
+
+/* HOME STUFF  */
+
+.home-sections-wrapper > .continue-reading {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+}
+
+.home-sections-wrapper > .continue-reading h4 {
+    color: var(--green-50) !important;
+}
+
+.continue-reading .module-content .btn-container button, .home-sections-wrapper > .continue-reading .module-content .btn-container  {
+    background-color: var(--green-700) !important;
+}
+
+.progress_bar_value__rnwN9.primary__efugz  {
+    background-color: var(--green-700) !important;
+}
+
+.progress_bar_value__rnwN9.success__BzCzJ {
+    background-color: var(--success) !important;
+}
+
+.progress_bar_value__rnwN9.default__sk_o3 {
+    background-color: var(--green-500) !important;
+}
+
+.featugreen-carousel h2, .home-sections-wrapper .greeting-and-content-settings .greeting-text, .home-sections-wrapper .module-header .left-section .heading h3  {
+    color: var(--green-50) !important;
+}
+
+
+.home-sections-wrapper .module-content .story-spotlight-details .story-info .title, .home-sections-wrapper .module-content .description .description-text, .home-sections-wrapper .module-content .link {
+    color: var(--green-50) !important;
+}
+
+.home-sections-wrapper .story-swimlane .module-content, .home-sections-wrapper .cta.module.paid, .home-sections-wrapper .hero {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+}
+
+.home-sections-wrapper .hero .description, .home-sections-wrapper .hero .title p, .home-sections-wrapper .cta.module.paid .btn-secondary.paid, .footer-list li a {
+    color: var(--green-50) !important;
+}
+
+.featugreen-carousel .controls .control.active {
+    background-color: var(--green-300) !important;
+}
+
+
+/* HOME STORY MODALS */
+
+.wp-modal .modal-content {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+}
+
+.home-sections-wrapper .story-preview-wrapper .more-details-wrapper .more-details, .home-sections-wrapper .story-preview-wrapper .title-wrapper .title {
+    color: var(--green-50) !important;
+}
+
+.home-sections-wrapper .tag-item {
+    border: none !important;
+}
+
+
+.btn-primary {
+    background-color: var(--green-900) !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--green-400) !important;
+    color: var(--green-800) !important;
+}
+
+.react-popover-container--small {
+    background-color: var(--green-900) !important;
+    color: var(--green-50) !important;
+}
+
+.react-popover-list .react-popover-item {
+    background-color: var(--green-700) !important;
+    color: var(--green-50) !important;
+}
+
+.react-popover-list .react-popover-item:hover {
+    overflow: hidden !important;
+
+}
+
+.react-popover-list {
+    background-color: var(--green-700) !important;
+    border: none !important;
+}
+.react-popover-container--small .react-popover-list--small .react-popover-item .react-popover-item__btn {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+    transition: transform 0.3s ease;
+}
+
+.react-popover-container--small .react-popover-list--small .react-popover-item .react-popover-item__btn .item-name:hover {
+    background-color: var(--green-600) !important;
+    
+
+}
+
+.fa-wp-neutral-1, .fa-wp-neutral-2 {
+    /* background-color: var(--green-900) !important; */
+    color: var(--green-50) !important;
+}
+
+
+
+.react-popover-container--small .react-popover-input-row .btn-icon, .form-control {
+    background-color: var(--green-800);
+    color: var(--green-50) !important;
+}
+
+.btn-icon svg {
+    stroke: var(--green-50) !important;
+}
+
+.react-popover-container--small .react-popover-header .react-popover-done-btn:hover {
+    color: var(--green-800) !important;
+}
+
+
+.story-carousel .tag-and-badge .paid-stories-badge {
+    color: var(--green-50) !important;
+}
+
+.tag-and-badge svg, .title-wrapper svg, .paid-indicator svg{
+    stroke: var(--green-50) !important;
+    fill: var(--green-50) !important;
+}
+
+.next-btn svg, .admin-panel__header-btn {
+    stroke: var(--green-700) !important;
+}
+
+
+ /* STORIES CATALOG */
+
+ .catalog-header h1, .catalog-content h3, .footer-list li, #browse-container .story-swimlane.module h3, #browse-container header h1, .dropdown-menu>li>.tab-control    {
+    color: var(--green-50) !important;
+ }
+
+ #browse-container .browse-content-container .panel-heading .dropdown-toggle, .browse-story-item .title, #browse-container .tags-container #refine-by-msg {
+    color: var(--green-50) !important;
+ }
+
+ 
+ #browse-container header, #browse-container .tags-container, #browse-container .browse-content-container, #browse-container .browse-content-container .panel-heading   {
+    background-color: var(--green-900) !important;
+    color: var(--green-50) !important;
+ }
+
+ .btn-grey {
+    background-color: var(--green-900) !important;
+    color: var(--green-50) !important;
+ }
+
+ /* WATTPAD PICKS */
+
+ #featugreen-picks-container {
+    background-color: var(--green-900) !important;
+    color: var(--green-50) !important;
+ }
+
+ /* STORY DETAILS PAGE */
+
+ .story-details-page .story-header, .story-details-page .story-info-container {
+    background-color: var(--green-900) !important;
+    color: var(--green-50) !important;
+ }
+
+ .story-details-page .card, .story-details-page .story-list .story-list__container, .story-details-page .table-of-contents   {
+    background-color: var(--green-700) !important;
+    color: var(--green-50) !important;
+ }
+
+ .story-details-page .story-header .story-info .story-info__title, .new-story-stats .stats-value, .admin-panel .admin-panel__header-btn .admin-header__title   {
+    color: var(--green-50) !important;
+ }
+
+ .story-details-page .card .card__label .card__title, .story-details-page .author-info .author-info__username a, .story-details-page .description .description-text  {
+    color: var(--green-50) !important;
+ }
+
+ .story-details-page .story-list .story-list__container .story-list__DW_title, .story-details-page .story-list .story-list__container .story-list__item .btn-group-vertical>.btn-group.on-story-preview .left-container .small.story-item-description, .story-details-page .story-list .story-list__container .story-list__item .btn-toolbar.on-story-preview .left-container .small.story-item-description, .story-details-page .story-list .story-list__container .story-list__item .clearfix.on-story-preview .left-container .small.story-item-description, .story-details-page .story-list .story-list__container .story-list__item .container-fluid.on-story-preview .left-container .small.story-item-description, .story-details-page .story-list .story-list__container .story-list__item .container.on-story-preview .left-container .small.story-item-description, .story-details-page .story-list .story-list__container .story-list__item .dl-horizontal dd.on-story-preview .left-container .small.story-item-description, .story-details-page .story-list .story-list__container .story-list__item .form-horizontal .form-group.on-story-preview .left-container .small.story-item-description, .story-details-page .story-list .story-list__container .story-list__item .modal-footer.on-story-preview .left-container .small.story-item-description, .story-details-page .story-list .story-list__container .story-list__item .panel-body.on-story-preview .left-container .small.story-item-description, .story-details-page .story-list .story-list__container .story-list__item .row.on-story-preview .left-container .small.story-item-description, .story-details-page .story-list .story-list__container .story-list__item .clearfix.on-story-preview .left-container .story-item-title-and-badge .title, .story-details-page .card .card__label .card__title .title__name {
+    color: var(--green-50) !important;
+ }
+
+
+ .story-details-page .description .story-copyright, .new-story-stats .stats-label__text, .story-details-page .table-of-contents .table-of-contents__header {
+    color: var(--green-50) !important;
+ }
+
+ .story-details-page .story-parts .story-parts__part, .story-list .story-list__container .story-list__item .clearfix.on-story-preview .left-container .icon-bar .icon-parts, .story-details-page .story-header .story-info .paid-indicator  {
+    color: var(--green-50) !important;
+ }
+
+ .tag-pill__yrFxu {
+     background-color: var(--green-700) !important;
+    color: var(--green-50) !important;
+ }
+
+ svg {
+    fill: transparent !important;
+    stroke: var(--green-50) !important;
+ }
+
+
+ .next-btn svg{
+    stroke: var(--green-50) !important;
+}
+
+ .story-details-page .story-header .story-info .paid-indicator, .admin-panel .admin-panel__content ul.admin-panel-content-grid li.admin-panel-content-row .row-name, .admin-panel .admin-panel__content .author-content .author-content__details {
+    color: var(--green-50) !important;
+ }
+
+ .form-control, #header-container #header #header-item-search form input {
+    background-color: var(--green-600) !important;
+    color: var(--green-50) !important;
+    border: none !important;
+ }
+
+ .form-control::placeholder {
+    color: var(--green-50) !important;
+ }
+
+ #edit-controls strong {
+    color: var(--green-900) !important;
+ }
+
+ .info-message {
+    color: var(--green-50) !important;
+ }
+
+
+ /* SEARCH RESULTS */
+
+ #search-controls, .feed-item-new a, #search-page, .tag-filter-container .refine-by-tag-header, .tag-filter-container  {
+    background-color: var(--green-900) !important;
+    color: var(--green-50) !important;
+ }
+
+ .filter .filter__options .c-checkbox.label-active {
+    background-color: var(--green-700) !important;
+    color: var(--green-50) !important;
+ }
+
+ #search-page #search-controls .search-tabs ul li a, #search-page #search-controls .search-tabs ul li a.active  {
+    color: var(--green-50) !important;  
+ }
+
+ .story-card-data .story-info .title, .filters-container .search-info .search-term, .filter .filter__title, .filters-container .search-info .stories-count, .c-checkbox input[type=checkbox]+div  {
+    color: var(--green-50) !important;  
+ }
+
+ .story-card-data .story-info {
+    background-color: var(--green-900) !important;
+    color: var(--green-50) !important;
+ }
+
+ .story-card-container .list-group.new-list-group .list-group-item {
+    background-color: var(--green-800) !important;
+ }
+
+ .c-checkbox input[type=checkbox]+div:not(.checked):before {
+    border: 1px solid var(--green-50) !important;
+}
+
+ .story-card-container  {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+}
+
+.panel.feed-item-new, .list-group-item.new-item .profile-card {
+    background-color: var(--green-900) !important;
+    color: var(--green-50) !important;
+}
+
+.feed-item-new p, #reading-list main li>a h5, #reading-list main li>div h5, #results-people li>a h5, #results-people li>div h5, #results-stories li>a h5, #results-stories li>div h5 {
+    color: var(--green-50) !important;
+}
+
+.story-card-data {
+    background-color: var(--green-900) !important;
+    color: var(--green-50) !important;
+}
+
+.tag-item {
+    border: none !important;
+}
+
+.btn-load-more {
+    background-color: var(--green-700) !important;
+    color: var(--green-50) !important;
+}
+
+.story-card-container .results {
+    color: var(--green-50) !important;
+}
+
+input, select {
+    color: var(--green-900) !important;
+}
+
+.tag-pill__yrFxu.active {
+    border-color: var(--orange) !important;
+}
+
+.story-details-page .story-parts .story-parts__part .part__reading-progress, .story-details-page .story-parts .currently-reading {
+    background-color: var(--green-500) !important;
+    color: var(--green-900) !important;
+}
+
+/* RANKINGS */
+
+#story-ranking ul li {
+    background-color: var(--green-700) !important;
+    color: var(--green-900) !important;
+}
+
+#story-ranking ul li a, #story-ranking .rank-total, #story-ranking h1, #story-ranking h2, #story-ranking h3, #story-ranking .rank-total {
+    color: var(--green-50) !important;
+
+}
+
+/* REPORT STORY */
+
+.wp-modal.modal-container.report-modal .modal-header .modal-title, .wp-modal.modal-container.report-modal .modal-body .reason-note, .wp-modal.modal-container.report-modal .modal-body .report-reason .reason-label .reason-title  {
+    color: var(--green-50) !important;
+}
+
+.modal-footer {
+    background-color: var(--green-700) !important;
+}
+
+
+/* PROFILE PAGE */
+
+.sub-navigation, .panel, .panel-default2>.panel-heading, #preview-modal .modal-content .modal-body .content  {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+    border: none !important;
+}
+
+#preview-modal .modal-content .modal-body .content .description, #preview-modal .modal-content .modal-body .content .meta, #preview-modal .modal-content .modal-body .content .modal-title, .profile-layout #profile-about .panel-body :not(.btn):not(span.fa):not(a), .profile-layout #profile-works .profile-works-content .discover-module-stories-large {
+    color: var(--green-50) !important;
+}
+
+.profile-layout #profile-works .profile-works-content .discover-module-stories-large .content a.title, .profile-layout header.background-lg #page-navigation nav li a, .profile-layout .user-information .panel .panel-heading .panel-title, .profile-layout .user-information .panel .panel-heading ul.metadata, .profile-layout .user-information .panel .social-meta  {
+    color: var(--green-50) !important;
+}
+
+.profile-layout #profile-works .profile-works-content .discover-module-stories-large .content .tag-ranking span  {
+    color: var(--green-50) !important;
+}
+
+.profile-layout #profile-works .profile-works-content .discover-module-stories-large .content .tag-ranking a  {
+    color: var(--green-50) !important;
+    border-color: var(--green-600) !important;
+}
+
+.profile-layout header.background .btn:not(.btn-story-lists):not(.on-start-reading):not(.on-create-list), .wallet {
+    background-color: var(--green-700) !important;
+    color: var(--green-50) !important;
+    border-color: var(--green-600) !important;
+}
+
+.profile-layout #profile-pinned-item, .profile-layout #profile-pinned-item pre  {
+    color: var(--green-50) !important;
+}
+
+
+/* TEXT SHADERS */
+
+.profile-layout .user-information .panel .panel-heading ul.metadata {
+    color: var(--green-400) !important;
+}
+
+.profile-layout #profile-works .profile-works-content .discover-module-stories-large .content .tag-ranking {
+    border-top: 1px solid var(--green-400) !important;
+}
+
+
+/* MESSAGE BOARD */
+
+.message-new, .new-post, .profile-layout #profile-message-wrapper #broadcast-container, .panel.feed-item-new .panel-heading, .panel.feed-item-new .panel-body, .feed-item-new .dark-grey    {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+}
+
+.btn-replies, .panel-body.message.reply-new.latest-replies {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+    border-color: var(--green-400) !important;
+}
+
+pre {
+    color: var(--green-50) !important;
+}
+
+.announcement-modal {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+}
+
+.button-group.dropdown {
+    background-color: var(--green-700) !important;
+}
+
+.comment-options .option:not(:first-child), .comment-options a:not(:first-child) {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+}
+
+#follower-modal .modal-content {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+}
+
+.btn-white {
+    background-color: var(--green-800) !important;
+    border: none !important;
+    color: var(--green-50) !important;
+}
+
+.btn-white:hover {
+    background-color: var(--green-700) !important;
+}
+
+.user-card .content, .user-card footer, .user-card  {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+}
+
+
+/* NOTIFICATIONS */
+
+.wp-panel {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+}
+
+#notifications #expand-modal .modal-body {
+    background-color: var(--green-700) !important;
+    color: var(--green-50) !important;
+}
+
+.notification .content p, .notification .content .on-navigate, .notification .content .heading  {
+    color: var(--green-50) !important;
+}
+
+.notification {
+    border-radius: 3px !important;
+    transition: transform 0.3s ease;
+}
+
+.notification:hover {
+    transform: translateX(10px);
+}
+
+
+#header-container #header>nav>ul>li button, #header-container #header #profile-dropdown button {
+    background-color: var(--green-900) !important;
+    color: var(--green-50) !important;
+}
+
+.invite-panel-component .wp-panel .wp-hero {
+    background-color: var(--green-700) !important;
+}
+
+
+/* INBOX */
+
+#inbox .threads-container .threads-header {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+}
+
+#inbox .threads-container .threads-list .thread-row .thread-column.thread-meta .thread-user, #inbox h2, #inbox h3, #inbox .threads-container .threads-list .thread-row .thread-column.thread-meta .thread-message.unread {
+    color: var(--green-50) !important;
+}
+
+.btn.btn-white.dropdown-toggle.inbox-more-options svg {
+    stroke: var(--green-50) !important;
+}
+
+#inbox .threads-container .threads-list .thread-row, #inbox .threads-container .threads-header, #header-container #header {
+    border-color: var(--green-700) !important;
+    border-radius: 3px !important;
+}
+
+.user-safety-operations .user-safety-operation, .report-modal-wrapper .modal-body .report-reason .reason-label .reason-subtitle, .wp-modal.modal-container.report-modal .modal-body .report-reason .reason-label .reason-subtitle  {
+    color: var(--green-50) !important;
+}
+
+#inbox .conversation-container .main .conversation-header, #inbox .conversation-container .main .bottom-sticky {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+}
+
+.resizable-textarea, #inbox .conversation-container .main .conversations .date-separator .date, .resizable-textarea textarea, .resizable-textarea .counter   {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+    border-radius: 3px !important;
+}
+
+#inbox .conversation-container .main .conversations .conversation-row, .confirm-modal-container>.modal-content .confirm-modal .title   {
+    color: var(--green-50) !important;
+}
+
+#inbox .conversation-container .main .conversations .conversation-row .conversation-message, #inbox .conversation-container .main .conversations .conversation-row.from-me .conversation-message {
+    border: none !important;
+    color: var(--green-50) !important;
+    background-color: var(--green-800) !important;
+}
+
+div {
+    border-color: transparent !important;
+}
+
+#inbox .conversation-container .main .conversations .conversation-row.from-me .conversation-message {
+    background-color: var(--green-800) !important;
+}
+
+.secondary_btn__Ae3Vl {
+    color: var(--green-50) !important;
+    background-color: var(--green-900) !important;
+}
+
+
+/* LIBRARY */
+
+#library-landing-page header h1, .sub-navigation nav li a, .library-story-item .content strong {
+    color: var(--green-50) !important;
+}
+
+.library-story-item {
+    transition: transform 0.2s;
+}
+
+.library-story-item:hover {
+    transform: translateY(-10px);
+}
+
+.library-story-item .percentage-read, .library-story-item .percentage-position {
+    border-radius: 8px !important;
+}
+
+#header-container #header #header-item-search form input, .cover {
+    border-radius: 3px !important;
+}
+.cover {
+    background-color: var(--green-900) !important;
+}
+/* READING LISTS VIA LIBRARY */
+
+#reading-list-tab .reading-list-item .story-title a, .dropdown-menu>li>a {
+    color: var(--green-50) !important;
+}
+
+.modal-content {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+}
+/* 
+.btn {
+    background-color: var(--green-700) !important;
+    color: var(--green-50) !important;
+} */
+
+
+.dropdown-menu > li>a:hover {
+    color: var(--green-900) !important;
+}
+
+.panel.feed-item-new, #reading-list main .list-group-item, #reading-list main li>div:not(.tag-item):not(.story-card):not(.stats-label):not(.icon-container):not(.profile-card) {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+}
+
+#reading-list .list-group .list-group-item .content>p, #reading-list main .list-group li>a .content small, #reading-list main .list-group li>div .content small, #results-stories .list-group li>a .content small, #results-stories .list-group li>div .content small {
+    color: var(--green-50) !important;
+}
+
+
+/* LANGUAGE SELECTION 
+UHH, IDK, WONT WORK
+*/
+
+
+/* SETTINGS */
+
+.user-settings ol li.info-tabs, .user-settings #account .profile-label, .user-settings #mute-list .username-wrapper .user-profile {
+    color: var(--green-50) !important;
+}
+.user-settings ol li.info-tabs.selected {
+    border-bottom: 1px solid var(--orange) !important;
+}
+
+.user-settings #account .birthdate-wrapper input[type=date], 
+#publish-modal > div > div > div.publish-schedule > div.date-time-field.schedule-date > div > input, 
+#publish-modal .publish-modal-content .date-time-field .select-container .time-form-field 
+{
+    color: black !important;
+}
+
+/* STORY READING */
+
+#funbar, article {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+}
+
+#story-reading #parts-container-new .promoted-stories-container .panel-title, #story-reading #parts-container-new .similar-stories-container .panel-title, #story-reading header.panel-reading h1, #similar-stories .collection .title, #similar-stories .collection .story-item-description, #story-reading #parts-container-new .similar-stories-container .story-item .meta>span, #story-reading #parts-container-new .author-info .info a  {
+    color: var(--green-50) !important;
+}
+
+#funbar-story .dropdown-menu .toc-header, #funbar-story .dropdown-menu>ul li a {
+    background-color: var(--green-700) !important;
+    color: var(--green-50) !important;
+}
+
+.comment-marker .num-comment {
+    color: var(--green-900) !important;
+}
+
+#funbar-controls .btn-link, #funbar-controls .btn-story-lists, .btn.btn-link.dropdown-toggle.on-admin-dropdown, .button-group.relative.inline-block.hidden-mobile.writer-button-group, .button-group.relative.inline-block {
+    background-color: var(--green-800) !important;
+}
+
+#funbar-story .info .title, #funbar-story .info .author, #funbar-story .dropdown-menu .toc-header h6>a, #funbar-story .dropdown-menu .toc-header small  {
+    color: var(--green-50) !important;
+    
+}
+
+#funbar-story .dropdown-menu>ul li {
+    border-color: var(--green-500) !important;
+}
+
+#funbar-story .dropdown-menu>ul li:hover {
+    background-color: var(--green-800) !important;
+}
+
+.comments-list, .paragraph-comments-drawer .drawer-content .drawer-body .paragraph-, .paragraph-comments-drawer .drawer-content .drawer-header {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+}
+
+.commentCardContainer__P0qWo, .paragraph-comments-drawer .drawer-content .drawer-body .paragraph-content  {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+}
+
+.comments-empty-stage .message, .report-modal-wrapper .modal-body h6.reason-title, .wp-modal.modal-container.report-modal .modal-body h6.reason-title, .comment-options .option span, .comment-options a span, .paragraph-comments-drawer .drawer-content .drawer-header .drawer-title, .text-body, .text-body-sm, .text-caption, .text-meta, .title-action, .title-lg, .title-md, .title-sm, .title-xl {
+    color: var(--green-50) !important;
+}
+
+.discover-rows .discover-module .title, .discover-rows .discover-module .social-meta, .discover-rows .discover-module .username, .discover-rows .discover-module .module-title  {
+    color: var(--green-50) !important;
+}
+.new-comment-field, .comment-options, #story-reading header.panel-reading a.restart-part .part-title  {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+}
+
+.textboxContainer__mbQss textarea {
+    color: var(--green-900) !important;
+}
+
+.btn-no-background, #story-reading .footer-actions .btn-text, .discover-rows {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+}
+
+.password-container .btn-no-background {
+background: transparent !important;
+}
+
+.cmp-el-speed .settings.active .settings-container, .trinity-player-iframe-wrapper, .trinity-iframe.loaded, .cmp-el-speed .settings.active .container-wrapper, .cmp-el-speed .settings.active .settings-container, .cmp-el-settings .settings.active .container-wrapper, .cmp-el-settings .settings.active .settings-container  {
+    background-color: var(--orange) !important;
+    color: var(--green-50) !important;
+    border-radius: 3px !important;
+    padding: 2px !important;
+}
+
+.cmp-el-powegreen-by .powegreen-by span, .cmp-el-powegreen-by a, .cmp-el-speed .container-wrapper .container .slider-wrapper .slider .bars .bar, .cmp-el-title, .cmp-el-timer .timer, .cmp-el-powegreen-by .powegreen-by span, .cmp-el-powegreen-by .powegreen-by, .trinity-player {
+    color: var(--green-50) !important;
+}
+
+.story-part-paywall {
+    background-color: var(--green-700) !important;
+    color: var(--green-50) !important;
+}
+
+
+/* LOGIN */
+
+#auth-header .btn, #authentication-panel {
+    background: transparent !important;
+    color: var(--green-900) !important;
+}
+
+.Y-s71, .czrkK, ._9zGc6, .NybUB, .czrkK h3, .EQEET p, .Goroy p, .TqQXL, .uYCh8, ._7qf9S, .login-modal .login-form p, .login-modal-wrapper .login-form p, .signup-modal .login-form p, .login-modal .login-form .panel-body .password-forgot, .login-modal-wrapper .login-form .panel-body .password-forgot, .signup-modal .login-form .panel-body .password-forgot, #landing #authentication-panel a, .login-modal .signup-link button, .login-modal-wrapper .signup-link button, .signup-modal .signup-link button, .login-modal .signup-link, .login-modal-wrapper .signup-link, .signup-modal .signup-link, .login-modal .signup-form h1, .signup-modal .signup-form h1, .login-modal .signup-form h2, .login-modal .signup-form p, .signup-modal .signup-form h2, .signup-modal .signup-form p, .login-modal .signup-form .panel-body .policy-agreement, .signup-modal .signup-form .panel-body .policy-agreement         {
+    color: var(--green-50) !important;
+}
+
+/* CREATE STORY */
+
+#works-item-edit .edit-profile, #works-item-edit .works-edit-select  {
+    background-color: var(--green-900) !important;
+    color: var(--green-50) !important;
+}
+
+#tag-input-wrapper > .autocomplete-results, #works-item-edit #main-edit-container .tags-form #tag-input,  #works-item-edit #main-edit-container .characters-form .character input, .tag-item.with-icon.active, #works-item-edit #main-edit-container .onoffswitch .onoffswitch-inner .off, #works-item-edit #main-edit-container .onoffswitch .onoffswitch-inner .on, #works-item-edit #main-edit-container .copyright-form .form-field .select-form-field, #works-item-edit .works-edit-select>button, #works-item-edit #main-edit-container .form-group textarea, #works-item-edit #main-edit-container .tag-container #add-tag {
+    background-color: var(--green-700) !important;
+    color: var(--green-50) !important;
+}
+
+#works-item-edit #main-edit-container .form-group label, #works-item-edit #main-edit-container .rating-warning, #works-item-edit #picture-sidebar .new-cover-upload .add-cover-text, #works-item-edit #main-edit-container .form-group .story-title, #works-item-edit .works-item-metadata, #works-item-edit .edit-profile .small {
+    color: var(--green-50) !important;
+}
+
+.btn-grey, #works-item-edit #main-edit-container .onoffswitch .onoffswitch-label, #works-item-edit #main-edit-container select:not(.form-element), #works-item-edit #main-edit-container .characters-form .character input, #works-item-edit #main-edit-container .form-group textarea{
+    border-color: var(--green-800) !important;
+}
+
+
+/* REAL WRITING PART */
+
+#writer-editor-container {
+    background-color: var(--green-600) !important;
+    color: var(--green-50) !important;
+}
+
+#writer-editor{
+    background-color: var(--green-600) !important;
+    color: var(--green-50) !important;
+}
+
+#writer-editor a, .medium-editor-toolbar-anchor-preview > a {
+    color: var(--failure) !important;
+}
+
+#writer-navigation-container .popover, #writer-media-container .background, #writer-navigation-container .writer-navigation {
+    background-color: var(--green-700) !important;
+    color: var(--green-50) !important;
+}
+
+#writer-navigation-container .story-settings-menu, #writer-navigation-container .navbar-story-metadata .story-part .part-meta, #writer-navigation-container .navbar-story-metadata .story-part .part-title, #writer-navigation-container .navbar-story-metadata .small:not(.save-indicator), #writer-navigation-container .navbar-story-metadata .h4, #writer-navigation-container .navbar-story-metadata .small:not(.save-indicator) {
+    color: var(--green-50) !important;
+}
+
+#writer-navigation-container .navbar-story-metadata .story-part:hover {
+    background-color: var(--green-900) !important;
+}
+
+.text-muted, #writer-navigation-container .story-settings-menu .popover-content .menu-item h6 {
+    color: var(--green-50) !important;
+}
+
+#storyplanner-new-tag, #works-item-edit #main-edit-container .works-item-toc .story-part, #works-item-edit #main-edit-container .works-item-toc .story-part, #works-item-edit #main-edit-container .works-item-toc .part-meta .part-name a, #works-item-edit #picture-sidebar #cover-uploader .cover-edit-prompt .on-cover-edit {
+    color: var(--green-50) !important;
+}
+
+#story-part-navigation .message {
+    color: var(--green-50) !important;
+}
+
+.primary_btn__M0LSa:hover {
+    background-color: var(--orange) !important;
+}
+
+.textboxContainer__mbQss button:disabled {
+    background-color: var(--failure) !important;
+}
+
+.textboxContainer__mbQss button {
+    background-color: var(--success) !important;
+}
+
+/* MY STORIES */
+
+#creation-works-listing .works-item-new .story-wrapper .updated-date, #creation-works-listing .works-item-new .story-wrapper .story-title a, #creation-works-listing .works-type-select>button, #creation-works-listing header h2 {
+    color: var(--green-50) !important;
+}
+
+/* STORY STATS */
+#writer-analytics .line-chart-header .line-chart-header__title {
+    color: var(--green-50) !important;
+}
+
+
+
+/* CLEANUPS */
+
+.user-settings #block-list .block-subheading, .user-settings #mute-list .block-subheading, .home-sections-wrapper .greeting-and-content-settings .content-settings {
+    color: var(--green-50) !important;
+}
+
+.story-details-page .story-parts .story-parts__part.new-part {
+    background-color: var(--green-600) !important;
+}
+
+.commentCardContent__Vc9vg pre a {
+    color: var(--orange) !important;
+}
+
+.secondary_btn__Ae3Vl:hover {
+    background-color: var(--orange) !important;
+}
+
+.readMoreSlider__WE136:not(.readMoreExpanded__HWD14)::before {
+    background: transparent !important;
+}
+
+.btn.btn-text.dropdown-toggle {
+    background-color: var(--green-800) !important;
+}
+
+dir-ltr.trinity-player-wrapper > .trinity-player.is-expanded, dir-ltr.trinity-player-wrapper, .trinity-player-wrapper {
+    color: var(--green-50) !important;
+}
+
+.modal-container {
+    background-color: transparent !important;
+    color: var(--green-50) !important;
+}
+
+#publish-modal .publish-modal-content .publish-footer button[class*=primary_btn__]:not([disabled]) {
+    background-color: var(--orange) !important;
+    color: var(--green-900) !important;
+}
+
+#publish-modal .publish-modal-content .modal-title, #publish-modal .publish-modal-content label  {
+    color: var(--green-50) !important;
+
+}
+
+#publish-modal .publish-modal-content .radio-button-container input[type=radio]:checked {
+    background-color: var(--orange) !important;
+    border: 2px solid var(--orange) !important;
+}
+
+modal-close-icon {
+    stroke: var(--orange) !important;
+}
+
+.edit-blocked-tags input {
+    background-color: var(--green-700) !important;
+}
+
+.content-settings h2, .content-settings h3, .edit-blocked-tags h2, .suggested-tags .title, .edit-blocked-tags input  {
+    color: var(--green-50) !important;
+}
+
+.light__KOYSj.base_7__tqZBv {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+}
+
+.featured-carousel h2, .featured-carousel p  {
+    color: var(--green-50) !important;
+}
+
+#search-query::placeholder {
+    color: var(--green-50) !important;
+}
+
+.feed-item-new .panel-body.message a:not(.username):not(.on-report):not(.on-delete):not(.on-mute):not(.on-unmute):not(.conduct-link):not(.safety-portal) {
+    color: var(--orange) !important;
+}
+
+.comments a {
+    color: var(--green-50) !important;
+}
+
+#funbar-story, #funbar-story .btn-toc, #funbar-controls>.btn:before, #funbar-controls>.button-group:before {
+    border-color: var(--green-800) !important;
+}
+
+.dropdown-menu .btn-option, .dropdown-menu>li>a, .dropdown-menu>ul>li>a {
+    color: var(--green-50) !important;
+}
+
+
+.library-story-item .content small, #library-landing-page .page-controls .page-status, .profile-layout #profile-pinned-item .username, .profile-layout #profile-lists .reading-list .story-item .title, .character-input::placeholder, .radio-button-container .radio-label, #works-item-edit #main-edit-container label, #select-form-component option:disabled, .slider-container .slider-labels, .planner-textarea textarea::placeholder, .form-field .form-field-label label, #story-planner, #story-planner #story-planner-intro .story-planner-intro-text .subtitle, #story-planner .section .section-description  {
+    color: var(--green-50) !important;
+}
+
+#story-planner a {
+    color: var(--orange) !important;
+}
+
+#time-setting, .form-field .select-form-field, .form-field input, #story-planner .form-field .autocomplete-field .suggestions button {
+    background-color: var(--green-800) !important;
+    color: var(--green-50) !important;
+}
+
+#profile-dropdown {
+    background-color: var(--green-900) !important;
+}
+
+/* 1.3*/
+
+.home-sections-wrapper .premium-picks-swimlane {
+    background-color: var(--green-900) !important;
+    color: var(--green-50) !important;
+}
+
+.home-sections-wrapper .premium-picks-swimlane .tag-item, .story-carousel .tag-and-badge .tag-item {
+    background-color: var(--green-50) !important;
+    color: var(--green-900) !important;
+}
+
+.home-sections-wrapper .module-header .left-section .subheading h4 {
+    color: var(--green-50) !important;
+}
+
+.button-group.dropdown {
+    background-color: transparent !important;
+}
+
+.feed-item-new a {
+    background-color: var(--green-800) !important;
+}
+
+.story-details-page .story-parts .story-parts__part .left-container .part__label .part-title, .story-details-page .story-parts .story-parts__part .right-label  {
+    color: var(--green-50) !important;
+}
+.story-details-page .story-parts .story-parts__part .part__reading-progress {
+    color: var(--green-50) !important;
+    background-color: transparent !important;
+}
+
+.add-to-library>ul>li>a:hover {
+    color: var(--green-900) !important;
+}
+
+.oykrP {
+    background-color: var(--green-900) !important;
+    color: var(--green-50) !important;
+}
+
+.continue-reading.module .module-content.full-width .carousel-container .btn-container{
+    visibility: hidden !important;
+}
+
+.progress_bar_value__rnwN9.primary__efugz {
+    background-color: var(--orange) !important;
+}
+
+.authorSection__GVjjz strong, .authorSection__GVjjz small, .stats-label__text__VzfuV, ._3Jjs8, .oykrP .XmOhw h1, .nBu0P, .-tcYx a.gSwKb, .-tcYx a {
+    color: var(--green-50) !important;
+}
+
+.BmVII {
+    color: var(--green-50) !important;
+    background-color: var(--green-900) !important;
+}
+
+.SMqUc:hover {
+    color: var(--green-50) !important;
+    background-color: var(--green-900) !important;
+}
+.open>.triangle, .LUULk, ._8ARDN   {
+    visibility: hidden !important;
+}
+.uHTMc, ._1-TYE, .g9NtN, .vkMRT, .qtCC9     {
+    background-color: var(--green-700) !important;
+    color: var(--green-50) !important;
+}
+
+#tag-input-wrapper, .autocomplete-results ul li {
+    background-color: var(--green-700) !important;
+    color: var(--green-50) !important;
+}
+
+#works-item-edit #main-edit-container .onoffswitch .onoffswitch-inner .on {
+    color: var(--green-900) !important;
+    background-color: var(--success) !important;
+}
+
+.lgs73 {
+    background: var(--green-500) !important;
+}
+
+.iYOTJ  {
+    background: var(--green-700) !important;
+}
+
+.lgs73::placeholder {
+    color: black !important
+}
+
+h1, h2, h3, h4, h5, h6, .Sib-y, ._3UA-E, .SMqUc, .teYpy, strong, .xBF7-   {
+    color: var(--green-50) !important;
+}
+
+.la6-S .ehTVt ._96aZR .PUdBR ._3iH-u li, .VT-tn .ehTVt ._96aZR .PUdBR ._3iH-u li {
+    color: var(--green-50) !important; 
+}
+
+
+._7YtIv, ._5EODf, ._6NEqD, ._57vRe, ._9c-sR, .t-TtR, .h1wm7, .bvpOW, .supported-marker, .tag-meta .num-not-shown  {
+    color: var(--green-50) !important;
+}
+
+.e779r {
+    background: var(--green-700) !important;
+}
+
+.stats-label svg {
+    fill: var(--green-50) !important;
+}
+
+.on-user-mention, pre a, .learn-more{
+    color: var(--orange) !important;
+}
+
+footer .tag-item .on-navigate {
+    color: var(--green-900) !important;
+}
+
+.alt-link, .latest-msg-date, .panel-title > a, .timestamp, .content > small, .x-small, .typography-heading-x-small, .typography-paragraph-medium  {
+    color: var(--green-50) !important;
+}
+
+.Pannr svg {
+    fill: var(--green-50) !important;
+}
+
+.RT3La, .ZBhUT, .GwQ88, .YXoA-, .GUczk, .JEAjp, .e4up9, #bXz8c, #works-item-edit .writer-tooltip, .popover-title {
+    background: var(--green-800) !important;
+    color: var(--green-50) !important;
+}
+
+.KqYyq, .ImvXX, ._96fir, small, .BemlV > a, .col-xs-6 .account-value {
+    color: var(--green-50) !important;
+}
+
+
+#tag-input::placeholder, .popover-content > .main-content, .popover-content > .tooltip-footer > a, #works-item-edit .writer-tooltip .secondary-content  {
+    color: var(--green-50) !important;
+}
+
+.btn .btn-no-style {
+    background: transparent !important;
+}
+
+#funbar-part-details:hover {
+    background: var(--green-800) !important;
+}
+
+.secondary-variant__KvdoY.default-accent__Pc0Pm, .primary-variant__NO4pv.default-accent__Pc0Pm {
+    background: var(--orange) !important;
+    border: none !important;
+    color: var(--green-50) !important;
+}
+
+.author > .on-navigate {
+    color: var(--orange) !important; 
+}
+
+.primary-variant__NO4pv.default-accent__Pc0Pm:disabled, .secondary-variant__KvdoY.default-accent__Pc0Pm:disabled {
+    background: var(--failure) !important;
+    border: none !important;
+    color: var(--green-50) !important;
+} 
+
+#publish-modal .publish-modal-content {
+    background: var(--green-800) !important;
+
+}
+
+.wp-modal.email-reverification-modal .modal-content p.note, .wp-modal.email-reverification-modal p.email-notes, .wp-modal.email-reverification-modal .modal-content .radio-wrapper .radio-item label, #story-reading header.panel-reading ul.story-extras li.story-extra.dedication  {
+    color: var(--green-50) !important;
+}
