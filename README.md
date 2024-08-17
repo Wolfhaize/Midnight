@@ -4,7 +4,7 @@ Midnight offers a captivating collection of themes designed to elevate your Watt
 
 ## Available Themes
 
-- **Gray**
+- **Gold**
 - **Blue**
 - **Green**
 - **Pink**
